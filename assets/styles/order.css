@@ -1,0 +1,165 @@
+ /* tampilan css wajib sama */
+ 
+ .jumbotron {
+    font-size: 30px;
+    padding: 70px;
+    background-color: #56ff18;
+    text-align: center;
+    color: white;
+ }
+ nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+ }
+ .ratakiri {
+   text-align: left;
+   border:1px solid black;
+   font-size: 17px;
+}
+ 
+ nav {
+    background-color: #35b606;
+    padding: 5px;
+    position: relative;
+    top: 0;
+ }
+ 
+ nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+ }
+ body {
+    font-family: 'Quicksand', sans-serif;
+ }
+
+ .tele {
+    display: inline;
+    text-align: center;
+ }
+
+ .gambar {
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+ }
+
+ footer {
+    padding: 20px;
+    color: white;
+    background-color: #56ff18;
+    text-align: center;
+    font-weight: bold;
+ }
+ 
+
+/* batas tampilan yang sama */
+
+    * {
+           /* digunakan untuk menghapus seluruh padding dan margin standar yang diberikan browser pada elemen */
+           margin: 0;
+           padding: 0;
+ 
+           /* Menggunakan border-box dalam perhitungan dimensi box-nya */
+           box-sizing: border-box;
+       }
+ 
+       .container {
+           width: 900px;
+           height: 400px;
+           margin: 0 auto;
+       }
+ 
+       .left-content {
+           
+           width: calc(33.3% - 20px);
+           height: 100%;
+           background-color: #fff7f7;
+           float: left;
+           margin-left: 20px;
+       }
+ 
+       .center-content {
+           width: calc(33.3% - 20px);
+           height: 100%;
+           background-color: #fff7f7;
+           float: left;
+           margin-left: 20px;
+       }
+ 
+       .right-content {
+           width: calc(33.3% - 20px);
+           height: 100%;
+           background-color: #fff7f7;
+           float: left;
+           margin-left: 20px;
+       }
+
+.order {
+   padding: 20px;
+   color: white;
+   background-color: #ff0004;
+   text-align: center;
+   font-weight: bold;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+   margin-top: 7px;
+   text-decoration: none;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 30px;
+    margin-top: 20px;
+ }
+ .button:hover {
+    font-weight: bold;
+ }
+ .history {
+    width: 80%;
+    margin: 30px auto 0 auto;
+    overflow: scroll;
+ }
+ table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+ }
+ th,
+ td {
+    text-align: center;
+    padding: 16px;
+ }
+ th {
+    background-color: rgb(234, 13, 72);
+    color: white;
+ }
+ tr:nth-child(even) {
+    background-color: #d2d2d2;
+ }
+
+ header ul li a:hover{
+    background-color: #35b606;
+    color: #56ff18;
+ }
+
+ .active {
+    background-color: #35b606;
+    color: #56ff18;
+ }
+
+ @media screen and (max-width: 1000px) {
+    aside,
+    .container,
+    .tele,
+    .history,
+     {
+        width: 100%;
+        padding: 0;
+    }
+ }
